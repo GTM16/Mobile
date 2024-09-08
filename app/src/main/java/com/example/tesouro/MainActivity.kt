@@ -91,6 +91,7 @@ fun Tela01(onNavigateToScreen02: () -> Unit) {
         }
     }
 }
+
 @Composable
 fun Tela02(onNavigateToScreen03: () -> Unit, onNavigateToScreen01: () -> Unit) {
     var selectedAnswer by remember { mutableStateOf("") }
